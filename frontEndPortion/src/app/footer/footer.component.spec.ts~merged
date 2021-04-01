@@ -1,0 +1,51 @@
+import { ComponentFixture, TestBed } from '@angular/core/testing';
+
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD:project/src/app/chat/chat.component.spec.ts
+import { ChatComponent } from './chat.component';
+
+describe('ChatComponent', () => {
+  let component: ChatComponent;
+  let fixture: ComponentFixture<ChatComponent>;
+
+  beforeEach(async () => {
+    await TestBed.configureTestingModule({
+      declarations: [ ChatComponent ]
+=======
+>>>>>>> hemanth
+import { FooterComponent } from './footer.component';
+
+describe('FooterComponent', () => {
+  let component: FooterComponent;
+  let fixture: ComponentFixture<FooterComponent>;
+
+  beforeEach(async () => {
+    await TestBed.configureTestingModule({
+      declarations: [ FooterComponent ]
+<<<<<<< HEAD
+=======
+>>>>>>> hemanth:project/src/app/footer/footer.component.spec.ts
+>>>>>>> hemanth
+    })
+    .compileComponents();
+  });
+
+  beforeEach(() => {
+<<<<<<< HEAD
+    fixture = TestBed.createComponent(FooterComponent);
+=======
+<<<<<<< HEAD:project/src/app/chat/chat.component.spec.ts
+    fixture = TestBed.createComponent(ChatComponent);
+=======
+    fixture = TestBed.createComponent(FooterComponent);
+>>>>>>> hemanth:project/src/app/footer/footer.component.spec.ts
+>>>>>>> hemanth
+    component = fixture.componentInstance;
+    fixture.detectChanges();
+  });
+
+  it('should create', () => {
+    expect(component).toBeTruthy();
+  });
+});
